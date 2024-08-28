@@ -1,0 +1,86 @@
+.lg img{
+    height: 100%;
+    width: 70%;
+    
+}
+.one{
+    justify-content: space-between;
+}
+.lg{
+    background: rgb(71, 71, 255);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-cont{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-input{
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 250px;
+}
+form label{
+    color: rgb(46, 46, 46);
+}
+h1{
+    margin-bottom: 50px;
+}
+.form-button{
+    height: 40px;
+    width: 48%;
+    margin-left: 2px;
+    margin-top: 20px;
+    background: #ffff;
+    border: 1px solid #5c5c5c;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.form-button:hover{
+    background: rgba(50, 50, 255, 0.76);
+    color: white;
+}
+span{
+    background: rgb(127, 127, 128);
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+a{
+    width: 89%;
+    height: 20px;
+    margin-top: 30px;
+}
+
+.two{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 40px;
+}
+.two a{
+    width: 300px;
+    padding: 30px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.logout:hover{
+    background: rgb(255, 92, 92);
+}
+.cont{
+    height: 70px;
+    width: 90%;
+    background: rgb(179, 179, 179);
+    position: fixed;
+    top: 10px;
+}
